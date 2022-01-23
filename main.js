@@ -40,7 +40,7 @@ var content = event.results[0][0].transcript;
         x = Math.floor(Math.random() * 900);
         y = Math.floor(Math.random() * 600);
         document.getElementById("status").innerHTML = "Started drawing square "; 
-        draw_rect = "set";
+        draw_square = "set";
       }
 }
 
