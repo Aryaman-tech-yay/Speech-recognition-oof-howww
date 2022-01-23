@@ -40,7 +40,7 @@ var content = event.results[0][0].transcript;
         x = Math.floor(Math.random() * 900);
         y = Math.floor(Math.random() * 600);
         document.getElementById("status").innerHTML = "Started drawing square "; 
-        draw_rect = "set";
+        draw_square = "set";
       }
 }
 
@@ -67,9 +67,9 @@ function draw() {
    if(draw_square == "set")
   {
     radius = Math.floor(Math.random() * 100);
-    square(x, y,70,70);
+    square(x, y,90,90);
     document.getElementById("status").innerHTML = "Square is drawn ";
-    draw_rect = "";
+    draw_square = "";
   }
 
 }
