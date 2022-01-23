@@ -67,7 +67,7 @@ function draw() {
    if(draw_square == "set")
   {
     radius = Math.floor(Math.random() * 100);
-    square(0, 0,90,90);
+    rect(x, y,90,90);
     document.getElementById("status").innerHTML = "Square is drawn ";
     draw_square = "";
   }
